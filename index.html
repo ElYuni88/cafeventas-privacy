@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — CaféVentas</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #333; }
+    h1 { color: #2E7D32; border-bottom: 2px solid #2E7D32; padding-bottom: 8px; }
+    h2 { color: #1565C0; margin-top: 32px; }
+    .updated { color: #666; font-size: 14px; font-style: italic; }
+    .contact { background: #E8F5E9; padding: 16px; border-radius: 8px; margin-top: 24px; }
+    a { color: #1565C0; }
+    ul { padding-left: 24px; }
+    code { background: #F5F5F5; padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<h1>Política de Privacidad — CaféVentas</h1>
+<p class="updated">Última actualización: 16 de noviembre de 2026</p>
+
+<p>Esta Política de Privacidad describe cómo la aplicación <strong>CaféVentas</strong> (en adelante, "la App") trata la información del usuario. La App es desarrollada y mantenida por Yunier Lacerdas Arria (en adelante, "el Desarrollador").</p>
+
+<h2>1. Resumen rápido</h2>
+<ul>
+  <li><strong>No recopilamos datos personales en servidores propios.</strong></li>
+  <li><strong>No usamos analytics, publicidad ni rastreo.</strong></li>
+  <li><strong>Todos los datos se guardan localmente en tu dispositivo.</strong></li>
+  <li><strong>La cámara solo se usa para escanear códigos de barras bajo tu acción explícita.</strong></li>
+  <li><strong>No compartimos información con terceros.</strong></li>
+</ul>
+
+<h2>2. Datos que la App almacena localmente</h2>
+<p>La App guarda la siguiente información <strong>exclusivamente en tu dispositivo</strong> (base de datos local Room + SharedPreferences):</p>
+<ul>
+  <li>Productos, precios e inventario del negocio.</li>
+  <li>Ventas, tickets y cuentas por cliente.</li>
+  <li>Usuarios del sistema (nombre, teléfono, PIN hasheado con SHA-256 + salt).</li>
+  <li>Configuración de la app (impresora, modo de venta, preferencias).</li>
+  <li>Estado del período de ventas (abierto/cerrado).</li>
+  <li>Información de licencia (trial, código de activación).</li>
+</ul>
+<p>Estos datos <strong>no se transmiten a ningún servidor del Desarrollador</strong>.</p>
+
+<h2>3. Cámara</h2>
+<p>La App solicita permiso de cámara <strong>únicamente</strong> para escanear códigos de barras de productos. Las imágenes capturadas se procesan localmente con ML Kit (Google) y <strong>no se almacenan ni se envían a ningún servidor</strong>.</p>
+
+<h2>4. Almacenamiento</h2>
+<p>La App escribe archivos en el almacenamiento del dispositivo en las siguientes carpetas:</p>
+<ul>
+  <li><strong>Descargas (Downloads):</strong> archivos de exportación IPB, tickets y licencias que tú solicitas exportar.</li>
+  <li><strong>Caché interna:</strong> archivos temporales generados al compartir tickets (se borran automáticamente).</li>
+</ul>
+<p>No accedemos a tus fotos, videos, contactos ni otros archivos personales.</p>
+
+<h2>5. Copia de seguridad automática (Android Auto Backup)</h2>
+<p>Si el usuario tiene activada la copia de seguridad de Android (Google Drive del propio usuario), la App incluye automáticamente sus preferencias y datos de licencia en el respaldo. <strong>Esta copia la gestiona Google, no el Desarrollador.</strong> El usuario puede desactivarla desde Ajustes de Android → Sistema → Copia de seguridad.</p>
+
+<h2>6. Impresora térmica</h2>
+<p>La App se conecta a impresoras térmicas ESC/POS mediante socket TCP en la red WiFi local (puerto 9100 por defecto). La configuración de IP y puerto se guarda localmente. <strong>No se envía información a servidores externos.</strong></p>
+
+<h2>7. Compras y licencias</h2>
+<p>La App ofrece 15 días de prueba gratuita. Pasado ese período, se requiere un código de activación que el usuario obtiene directamente del Desarrollador (por transferencia bancaria o WhatsApp). <strong>La App no procesa pagos dentro de la aplicación</strong> (no usa Google Play Billing en esta versión).</p>
+
+<h2>8. Menores de edad</h2>
+<p>La App está dirigida a mayores de 18 años que operan un negocio. No recopilamos conscientemente información de menores.</p>
+
+<h2>9. Cambios a esta política</h2>
+<p>El Desarrollador puede actualizar esta política ocasionalmente. La fecha de "última actualización" al inicio del documento refleja la versión vigente. Los cambios significativos se notificarán dentro de la App.</p>
+
+<h2>10. Tus derechos</h2>
+<p>Como todos los datos se almacenan localmente, tienes control total sobre ellos:</p>
+<ul>
+  <li><strong>Acceso:</strong> puedes ver todos los datos desde la propia App.</li>
+  <li><strong>Eliminación:</strong> puedes borrar todos los datos desde Ajustes → Resetear aplicación, o desinstalando la App.</li>
+  <li><strong>Portabilidad:</strong> puedes exportar tus datos (IPB, tickets) desde la App.</li>
+</ul>
+
+<div class="contact">
+  <h2 style="margin-top: 0;">11. Contacto</h2>
+  <p>¿Preguntas sobre esta política o sobre el tratamiento de tus datos?</p>
+  <p>📧 <strong>Email:</strong> <a href="mailto:yunierlacerdasarria@gmail.com">yunierlacerdasarria@gmail.com</a></p>
+  <p>💬 <strong>WhatsApp:</strong> +53 55808823</p>
+  <p>📍 <strong>País:</strong> Cuba</p>
+</div>
+
+</body>
+</html>
